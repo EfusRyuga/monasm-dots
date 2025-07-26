@@ -14,3 +14,9 @@ Anddd, the code is extremly messy UwU sry.
 ## Preview
 
 ![Preview](preview.gif)
+
+## Screenshots
+
+![](./screenshots/screenshot1.jpg)
+
+![](./screenshots/screenshot2.jpg)
