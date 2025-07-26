@@ -9,7 +9,7 @@ Anddd, the code is extremly messy UwU sry.
 
 - **Wayland compositor:** [Hyprland](https://wiki.hypr.land/) 
 - **Widgets and status bars:** [EWW](https://github.com/elkowar/eww)  
-- **Terminal emulator:** Kitty
+- **Terminal emulator:** [Kitty](https://sw.kovidgoyal.net/kitty/)
 
 ## Preview
 
