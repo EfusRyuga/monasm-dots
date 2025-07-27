@@ -42,7 +42,6 @@ void dependencies(){
         else{
             printf("    \033[31mMissing dependency: %s\nRequirements unfulfilled (%d/%d). Ending Process...\033[0m\n",dependency[i],i,size(dependency));
             exit(EXIT_FAILURE);
-
         }
         pclose(pipe);
     }
