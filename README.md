@@ -5,6 +5,9 @@ My personal dotfiles for Arch Linux. This repository is not actively maintained.
 Use with caution! Make a backup of your current setup before trying this out. Alternatively, you can tweak your existing configs to your liking.
 Anddd, the code is extremly messy UwU sry.
 
+
+*** Update : Automated-install script underway!!!
+
 ## Overview
 
 - **Wayland compositor:** [Hyprland](https://wiki.hypr.land/) 
