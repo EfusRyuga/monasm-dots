@@ -35,11 +35,11 @@ void dependencies(){
         FILE *pipe;
         snprintf(cmd,sizeof(cmd),"which %s 2>/dev/null",dependency[i]);
         pipe = popen(cmd,"r");
-        printf("\033[93mFinding Dependency: %s\033[0m\n",dependency[i]);
+        printf("Finding Dependency: %s\n",dependency[i]);
         usleep(100000);
         if(fgets(path,sizeof(path),pipe)!=NULL){ 
             path[strcspn(path,"\n")]=0;
-            printf("    \033[32mFound: %s at %s\033[0m\n",dependency[i],path);
+            printf("    \033[92mFound: %s at %s\033[0m\n",dependency[i],path);
         }
         else{
             sleep(1);
@@ -62,7 +62,7 @@ void clone(){
         printf("\033[31mFailed to clone repository from: %s\nProcess skipped!\033[0m\n",git_path);
     }
     else{
-        printf("\033[32mSuccessfully cloned repository from: %s\033[0m\n",git_path);
+        printf("\033[92mSuccessfully cloned repository from: %s\033[0m\n",git_path);
     }
 }
 
