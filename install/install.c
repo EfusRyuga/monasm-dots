@@ -81,7 +81,7 @@ void warning(){
     }
     if(c=='N'||c=='n'){
 	printf("\033[92mEnding process...\033[0m\n");
-	exit(0);
+	exit(EXIT_SUCCESS);
     }
 }
 
