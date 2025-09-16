@@ -6,7 +6,7 @@ Use with caution! Make a backup of your current setup before trying this out. Al
 Anddd, the code is extremly messy UwU sry.
 
 
-*** Update : Automated-install script underway!!!
+*** Update : Automated-install script underway!!! (Due date unknown)
 
 ## Overview
 
